@@ -9,34 +9,36 @@
             margin-left: 50px; 
         }
     </style>
+
+<style>
+    hr {
+     border: none; 
+     background-color: rgb(54, 41, 137); 
+     height: 2px; 
+    }</style>
 </head>
 <body>
    
-    <div>
+
     Загальна кількість перестановок з <i>n</i>  елементів дорівнює <b>добутку всіх
     цілих чисел</b> від 1 до  <i>n</i>:
     P<sub>n</sub> = 1•2•3•...(n-2)(n-1)•n.
-</div>
-
-<div>
  <hr>
     <dl>
         <dt>Список дисциплін 3-го курсу</dt>
             <dd>Моделювання систем</dd>
-            <dd>Системне nporpaмнe забезпечення</dd>
+            <dd>Системне програмне забезпечення</dd>
             <dd>Мікроконтролери та мікроконтролерні системи</dd>
-            <dd>Apxiтekтypa комп'ютерів</dd>
-            <dd>комп'ютерна схемотехніка</dd>
-            <dd>Фівиховання та спорт 2022/23</dd>
+            <dd>Apxiтeктypa комп'ютерів</dd>
+            <dd>Кокомп'ютерна схемотехніка</dd>
+            <dd>Internet-технології</dd>
+            <dd>Психологія управління</dd>
+            <dd>Фізвиховання та спорт 2022/23</dd>
             <dd></dd>
     </dl>
 </hr>
-</div>
-
 
 <hr>
-
-<div>
     <table width = "400"  border ="1">
       
         <th colspan="4">Періодична система хімічних елементів</th>
@@ -64,10 +66,7 @@
         </table> 
         <br>
         </hr>
-    </div>
         <hr>
-
-        <div>
         <b>Інформація про комплектуючі ПК</b>
         <form action ="#" method="get">
             <label for="processor">Введіть назву процессору</label>
@@ -82,33 +81,21 @@
             <input type="reset" value="reset">
             <input type="submit" value="submit">
         </form>
-        </div>
-
         <hr>
         <br>
-        <div id="map-container">
-            <!-- Изображение карты -->
-            <img src="name.png" alt="Интерактивная карта" id="map-image" usemap="#map">
+        <div>
+            <img src="name.png" usemap="#map">
             
-            <!-- Определение областей на изображении -->
             <map name="map">
-                <!-- кафедра -->
-                <area class="map-area" shape="circle" coords="77,221,77" href="https://nure.ua/department/kafedra-elektronnih-obchislyuvalnih-mashin-eom" alt="Кафедра">
-    
-                <!-- расписание -->
-                <area class="map-area" shape="circle"  coords="421,221,77" href="https://cist.nure.ua/ias/app/tt/f?p=778:2:4083253477980221::NO:::#" alt="Расписание">
-           
-                <!-- университет -->
-                <area class="map-area" shape="rect" coords="0,0,500,300" href="https://nure.ua/" alt="Университет">        
-            </map>
-            </div>
+                <area shape="circle" coords="77,221,77" href="https://nure.ua/department/kafedra-elektronnih-obchislyuvalnih-mashin-eom" alt="Кафедра">
 
-            <style>
-                hr {
-                 border: none; /* Убираем границу */
-                 background-color: rgb(54, 41, 137); /* Цвет линии */
-                 height: 2px; /* Толщина линии */
-                }</style>
+                <area shape="circle"  coords="421,221,77" href="https://cist.nure.ua/ias/app/tt/f?p=778:2:4083253477980221::NO:::#" alt="Розклад">
+
+                <area shape="rect" coords="0,0,500,300" href="https://nure.ua/" alt="Университет">        
+            </map>
+
+        </div>
+        
 
 
 </body>
